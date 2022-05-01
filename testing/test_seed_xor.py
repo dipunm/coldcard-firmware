@@ -244,5 +244,25 @@ def test_xor_import_empty(parts, expect, goto_home, pick_menu_item, cap_story, n
     assert get_secrets()['mnemonic'] == expect
     reset_seed_words()
 
+#def test_import_xor_file()
+# TODO: 
+# - test when sdcard is missing
+# - test when no files found
+# - test when 1 file found
+# - test when 2 files found
+# - test choosing a bad file
+
+#def test_export_xor_file()
+# TODO:
+# - test when sdcard is missing
+# - test when no files exist
+# - test when conflicting file exists
+# - test when using tmp_secret
+
+#def test_import_xor_file_and_manual()
+
+
+
+
 
 # EOF

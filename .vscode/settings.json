@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./unix/variant",
+        "./external/libngu"
+    ]
+}
